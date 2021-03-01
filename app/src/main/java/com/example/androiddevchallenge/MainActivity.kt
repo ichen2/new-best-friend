@@ -47,6 +47,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.layout.ContentScale
@@ -68,6 +69,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+data class Puppy(val name: String, val image: Painter, val description: String, val breed: String, val age: Int)
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
