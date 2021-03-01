@@ -23,4 +23,3 @@ val white = Color(0xFFF1F1F1)
 val darkWhite = Color(0xFFF5F5F5)
 val black = Color(0xFF181818)
 val darkBlack = Color(0xFF141414)
-

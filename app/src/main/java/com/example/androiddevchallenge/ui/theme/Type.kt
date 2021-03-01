@@ -21,40 +21,39 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-
 import com.example.androiddevchallenge.R
 
 // Set of Material typography styles to start with
 private val poppins = FontFamily(
-        Font(R.font.poppins_light, FontWeight.Light),
-        Font(R.font.poppins_bold, FontWeight.Bold)
+    Font(R.font.poppins_light, FontWeight.Light),
+    Font(R.font.poppins_bold, FontWeight.Bold)
 
 )
 
 val typography = Typography(
-        body1 = TextStyle(
-                fontFamily = poppins,
-                fontWeight = FontWeight.Light,
-                fontSize = 16.sp
-        ),
-        body2 = TextStyle(
-                fontFamily = poppins,
-                fontWeight = FontWeight.Light,
-                fontSize = 12.sp
-        ),
-        h1 = TextStyle(
-                fontFamily = poppins,
-                fontWeight = FontWeight.Light,
-                fontSize = 28.sp
-        ),
-        h2 = TextStyle(
-                fontFamily = poppins,
-                fontWeight = FontWeight.Light,
-                fontSize = 24.sp
-        ),
-        h3 = TextStyle(
-                fontFamily = poppins,
-                fontWeight = FontWeight.Light,
-                fontSize = 20.sp
-        )
+    body1 = TextStyle(
+        fontFamily = poppins,
+        fontWeight = FontWeight.Light,
+        fontSize = 16.sp
+    ),
+    body2 = TextStyle(
+        fontFamily = poppins,
+        fontWeight = FontWeight.Light,
+        fontSize = 12.sp
+    ),
+    h1 = TextStyle(
+        fontFamily = poppins,
+        fontWeight = FontWeight.Light,
+        fontSize = 28.sp
+    ),
+    h2 = TextStyle(
+        fontFamily = poppins,
+        fontWeight = FontWeight.Light,
+        fontSize = 24.sp
+    ),
+    h3 = TextStyle(
+        fontFamily = poppins,
+        fontWeight = FontWeight.Light,
+        fontSize = 20.sp
+    )
 )

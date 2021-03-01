@@ -22,19 +22,19 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-        primary = lightPink,
-        onPrimary = black,
-        secondary = darkBlack,
-        background = black,
-        onBackground = white
+    primary = lightPink,
+    onPrimary = black,
+    secondary = darkBlack,
+    background = black,
+    onBackground = white
 )
 
 private val LightColorPalette = lightColors(
-        primary = lightPink,
-        onPrimary = white,
-        secondary = darkWhite,
-        background = white,
-        onBackground = black
+    primary = lightPink,
+    onPrimary = white,
+    secondary = darkWhite,
+    background = white,
+    onBackground = black
 )
 
 @Composable
@@ -46,9 +46,9 @@ fun NewBestFriendTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Com
     }
 
     MaterialTheme(
-            colors = colors,
-            typography = typography,
-            shapes = shapes,
-            content = content
+        colors = colors,
+        typography = typography,
+        shapes = shapes,
+        content = content
     )
 }
